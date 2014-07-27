@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 
-use lib::abs '..';
+use lib::abs qw(../lib);
 
 use AnyEvent::UA;
 use AnyEvent;

@@ -8,10 +8,11 @@ WriteMakefile(
 	VERSION_FROM      => 'lib/AnyEvent/UA.pm', # finds $VERSION
 	ABSTRACT_FROM     => 'lib/AnyEvent/UA.pm', # retrieve abstract from module
 	PREREQ_PM         => {
-		'AnyEvent' => 5,
-		'HTTP::Easy' => 0,
-		'Scalar::Util' => 0,
-		'common::sense' => 2,
+		'AnyEvent'        => 5,
+		'HTTP::Easy'      => 0,
+		'Scalar::Util'    => 0,
+		'URI'             => 0,
+		'common::sense'   => 2,
 	},
 	AUTHOR            => 'Mons Anderson <mons@cpan.org>',
 );
